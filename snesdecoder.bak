@@ -1,0 +1,640 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74HC04 U1
+U 1 1 5F8E720C
+P 3000 2450
+F 0 "U1" H 3000 2767 50  0000 C CNN
+F 1 "74HC04" H 3000 2676 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3000 2450 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 3000 2450 50  0001 C CNN
+	1    3000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U1
+U 2 1 5F8E731E
+P 4050 2450
+F 0 "U1" H 4050 2767 50  0000 C CNN
+F 1 "74HC04" H 4050 2676 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4050 2450 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 4050 2450 50  0001 C CNN
+	2    4050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U1
+U 3 1 5F8E736F
+P 4950 2450
+F 0 "U1" H 4950 2767 50  0000 C CNN
+F 1 "74HC04" H 4950 2676 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4950 2450 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 4950 2450 50  0001 C CNN
+	3    4950 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U1
+U 4 1 5F8E73C8
+P 5650 2450
+F 0 "U1" H 5650 2767 50  0000 C CNN
+F 1 "74HC04" H 5650 2676 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5650 2450 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 5650 2450 50  0001 C CNN
+	4    5650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F8EA910
+P 2550 2650
+F 0 "C1" H 2665 2696 50  0000 L CNN
+F 1 "0.1u" H 2665 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2588 2500 50  0001 C CNN
+F 3 "~" H 2550 2650 50  0001 C CNN
+	1    2550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F8EAA50
+P 4650 2650
+F 0 "C3" H 4765 2696 50  0000 L CNN
+F 1 "0.1u" H 4765 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4688 2500 50  0001 C CNN
+F 3 "~" H 4650 2650 50  0001 C CNN
+	1    4650 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2500 4650 2450
+Wire Wire Line
+	2550 2500 2550 2450
+Wire Wire Line
+	3700 2550 3700 2450
+Wire Wire Line
+	3700 2450 3750 2450
+$Comp
+L Device:R R2
+U 1 1 5F8EAAE5
+P 3500 2450
+F 0 "R2" V 3293 2450 50  0000 C CNN
+F 1 "1k" V 3384 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3430 2450 50  0001 C CNN
+F 3 "~" H 3500 2450 50  0001 C CNN
+	1    3500 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F8EABDC
+P 2350 2450
+F 0 "R1" V 2143 2450 50  0000 C CNN
+F 1 "1k" V 2234 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2280 2450 50  0001 C CNN
+F 3 "~" H 2350 2450 50  0001 C CNN
+	1    2350 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5F8EDF6F
+P 4500 2450
+F 0 "R3" V 4293 2450 50  0000 C CNN
+F 1 "1k" V 4384 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 2450 50  0001 C CNN
+F 3 "~" H 4500 2450 50  0001 C CNN
+	1    4500 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 2450 3700 2450
+Connection ~ 3700 2450
+$Comp
+L power:GNDD #PWR0101
+U 1 1 5F8EE138
+P 2550 2850
+F 0 "#PWR0101" H 2550 2600 50  0001 C CNN
+F 1 "GNDD" H 2554 2695 50  0000 C CNN
+F 2 "" H 2550 2850 50  0001 C CNN
+F 3 "" H 2550 2850 50  0001 C CNN
+	1    2550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0102
+U 1 1 5F8EE172
+P 3700 2850
+F 0 "#PWR0102" H 3700 2600 50  0001 C CNN
+F 1 "GNDD" H 3704 2695 50  0000 C CNN
+F 2 "" H 3700 2850 50  0001 C CNN
+F 3 "" H 3700 2850 50  0001 C CNN
+	1    3700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0103
+U 1 1 5F8EE236
+P 4650 2850
+F 0 "#PWR0103" H 4650 2600 50  0001 C CNN
+F 1 "GNDD" H 4654 2695 50  0000 C CNN
+F 2 "" H 4650 2850 50  0001 C CNN
+F 3 "" H 4650 2850 50  0001 C CNN
+	1    4650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2800 4650 2850
+Wire Wire Line
+	2550 2800 2550 2850
+Connection ~ 4650 2850
+Wire Wire Line
+	4650 2850 4650 2900
+$Comp
+L Device:C C2
+U 1 1 5F8EEDAB
+P 3700 2700
+F 0 "C2" H 3815 2746 50  0000 L CNN
+F 1 "0.1u" H 3815 2655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3738 2550 50  0001 C CNN
+F 3 "~" H 3700 2700 50  0001 C CNN
+	1    3700 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4650 2450
+Wire Wire Line
+	3300 2450 3350 2450
+Connection ~ 2550 2450
+Wire Wire Line
+	2500 2450 2550 2450
+Wire Wire Line
+	2550 2450 2700 2450
+Wire Wire Line
+	5250 2450 5250 1800
+Wire Wire Line
+	5250 1800 2200 1800
+Wire Wire Line
+	2200 1800 2200 2450
+Wire Wire Line
+	5250 2450 5350 2450
+Connection ~ 5250 2450
+Wire Wire Line
+	6100 2650 6300 2650
+Connection ~ 6350 3150
+Wire Wire Line
+	6350 3150 6350 3250
+Wire Wire Line
+	6350 3450 6100 3450
+Wire Wire Line
+	6100 3450 6100 2650
+Connection ~ 6350 3450
+Wire Wire Line
+	6350 3450 6350 3550
+Connection ~ 6350 3550
+Wire Wire Line
+	6350 3050 6350 3150
+Wire Wire Line
+	6350 2950 6350 3050
+Connection ~ 6350 3050
+Wire Wire Line
+	6350 3550 6350 3650
+$Comp
+L 74xx:74LS161 U2
+U 1 1 5F8F0C18
+P 6850 3450
+F 0 "U2" H 6850 4428 50  0000 C CNN
+F 1 "74LS161" H 6850 4337 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6850 3450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 6850 3450 50  0001 C CNN
+	1    6850 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3750 5950 3750
+Wire Wire Line
+	5950 3750 5950 2450
+Wire Wire Line
+	6700 3800 6350 3800
+Wire Wire Line
+	6350 3800 6350 3950
+Wire Wire Line
+	6700 3800 6700 3700
+Wire Wire Line
+	6700 3700 6350 3700
+Wire Wire Line
+	6350 3700 6350 3650
+Connection ~ 6350 3650
+Wire Wire Line
+	6850 3350 6850 4250
+Wire Wire Line
+	6350 3250 6350 3350
+Wire Wire Line
+	6350 3350 6850 3350
+Connection ~ 6350 3250
+$Comp
+L Connector:Conn_01x05_Male J1
+U 1 1 5F8F49EA
+P 6300 1750
+F 0 "J1" H 6406 2128 50  0000 C CNN
+F 1 "SNES Controller Input" H 6406 2037 50  0000 C CNN
+F 2 "IO:Connector_Wire_5PAD" H 6300 1750 50  0001 C CNN
+F 3 "~" H 6300 1750 50  0001 C CNN
+	1    6300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0104
+U 1 1 5F8F4F88
+P 5950 1300
+F 0 "#PWR0104" H 5950 1050 50  0001 C CNN
+F 1 "GNDD" H 5954 1145 50  0000 C CNN
+F 2 "" H 5950 1300 50  0001 C CNN
+F 3 "" H 5950 1300 50  0001 C CNN
+	1    5950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0105
+U 1 1 5F8F4FE0
+P 6100 2000
+F 0 "#PWR0105" H 6100 1850 50  0001 C CNN
+F 1 "+5V" H 6115 2173 50  0000 C CNN
+F 2 "" H 6100 2000 50  0001 C CNN
+F 3 "" H 6100 2000 50  0001 C CNN
+	1    6100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2000 6300 2000
+Wire Wire Line
+	6500 2000 6500 1950
+Wire Wire Line
+	6300 2000 6300 2650
+Connection ~ 6300 2000
+Wire Wire Line
+	6300 2000 6500 2000
+Connection ~ 6300 2650
+Wire Wire Line
+	6300 2650 6850 2650
+Wire Wire Line
+	6500 1250 6500 1550
+Wire Wire Line
+	5950 1750 5950 2300
+Connection ~ 5950 2450
+Wire Wire Line
+	5950 1750 6500 1750
+$Comp
+L 74xx:74LS596 U3
+U 1 1 5F8F83A1
+P 8000 3350
+F 0 "U3" H 8000 4128 50  0000 C CNN
+F 1 "74LS596" H 8000 4037 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 8000 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls596" H 8000 3350 50  0001 C CNN
+	1    8000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS596 U4
+U 1 1 5F8F8AB8
+P 9300 3350
+F 0 "U4" H 9300 4128 50  0000 C CNN
+F 1 "74LS596" H 9300 4037 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 9300 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls596" H 9300 3350 50  0001 C CNN
+	1    9300 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3850 8700 3850
+Wire Wire Line
+	8700 3850 8700 2950
+Wire Wire Line
+	8700 2950 8900 2950
+Wire Wire Line
+	6850 2650 8000 2650
+Connection ~ 6850 2650
+Wire Wire Line
+	8000 2650 8000 2750
+Wire Wire Line
+	9300 2650 8000 2650
+Connection ~ 8000 2650
+Wire Wire Line
+	9300 4050 8900 4050
+Wire Wire Line
+	8000 4050 7600 4050
+Connection ~ 8000 4050
+Connection ~ 6850 4250
+Wire Wire Line
+	5950 1300 5950 1250
+Wire Wire Line
+	5950 1250 6500 1250
+Wire Wire Line
+	7600 2950 7500 2950
+Wire Wire Line
+	7500 2950 7500 1850
+Wire Wire Line
+	7500 1850 6500 1850
+$Comp
+L 74xx:74HC04 U1
+U 5 1 5F902277
+P 6800 2300
+F 0 "U1" H 6800 2617 50  0000 C CNN
+F 1 "74HC04" H 6800 2526 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6800 2300 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 6800 2300 50  0001 C CNN
+	5    6800 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2300 5950 2300
+Connection ~ 5950 2300
+Wire Wire Line
+	5950 2300 5950 2450
+Wire Wire Line
+	7450 3150 7600 3150
+Wire Wire Line
+	7100 2300 7200 2300
+$Comp
+L 74xx:74HC04 U1
+U 6 1 5F9052EF
+P 8250 2100
+F 0 "U1" H 8250 2417 50  0000 C CNN
+F 1 "74HC04" H 8250 2326 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8250 2100 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 8250 2100 50  0001 C CNN
+	6    8250 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3450 7400 1650
+Wire Wire Line
+	6500 1650 7400 1650
+Wire Wire Line
+	7400 3450 7350 3450
+Wire Wire Line
+	7950 2100 7950 1650
+Wire Wire Line
+	7950 1650 7400 1650
+Connection ~ 7400 1650
+Wire Wire Line
+	8550 2100 8800 2100
+Wire Wire Line
+	8800 2100 8800 2350
+Wire Wire Line
+	8800 3450 8900 3450
+Wire Wire Line
+	8900 3150 8850 3150
+Wire Wire Line
+	7600 3450 8100 3450
+Wire Wire Line
+	8100 3450 8100 2350
+Wire Wire Line
+	8100 2350 8800 2350
+Connection ~ 8800 2350
+Wire Wire Line
+	8800 2350 8800 3450
+Wire Wire Line
+	8900 3550 8900 4050
+Connection ~ 8900 4050
+Wire Wire Line
+	8900 4050 8000 4050
+Wire Wire Line
+	8900 3250 9300 3250
+Wire Wire Line
+	9300 2650 9300 2750
+Connection ~ 9300 2750
+Wire Wire Line
+	9300 2750 9300 3250
+Wire Wire Line
+	7600 3250 8000 3250
+Wire Wire Line
+	8000 3250 8000 2750
+Connection ~ 8000 2750
+Wire Wire Line
+	7450 2300 7450 3150
+Wire Wire Line
+	8850 1450 7200 1450
+Wire Wire Line
+	7200 1450 7200 2300
+Wire Wire Line
+	8850 1450 8850 3150
+Connection ~ 7200 2300
+Wire Wire Line
+	7200 2300 7450 2300
+Wire Wire Line
+	7600 4050 7600 3550
+Wire Wire Line
+	7600 4250 7600 4050
+Connection ~ 7600 4050
+Wire Wire Line
+	6850 4250 7300 4250
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 5F91B4CD
+P 10500 2950
+F 0 "J3" H 10528 2926 50  0000 L CNN
+F 1 "AB" H 10528 2835 50  0000 L CNN
+F 2 "IO:2PAD_AB" H 10500 2950 50  0001 C CNN
+F 3 "~" H 10500 2950 50  0001 C CNN
+	1    10500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J4
+U 1 1 5F91B525
+P 10500 3150
+F 0 "J4" H 10527 3126 50  0000 L CNN
+F 1 "XY" H 10527 3035 50  0000 L CNN
+F 2 "IO:2PAD_XY" H 10500 3150 50  0001 C CNN
+F 3 "~" H 10500 3150 50  0001 C CNN
+	1    10500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J6
+U 1 1 5F91B56B
+P 8800 4350
+F 0 "J6" H 8827 4326 50  0000 L CNN
+F 1 "LR" H 8827 4235 50  0000 L CNN
+F 2 "" H 8800 4350 50  0001 C CNN
+F 3 "~" H 8800 4350 50  0001 C CNN
+	1    8800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J5
+U 1 1 5F91B5B7
+P 10500 3750
+F 0 "J5" H 10527 3726 50  0000 L CNN
+F 1 "StartSel" H 10527 3635 50  0000 L CNN
+F 2 "IO:2PAD_StartSel" H 10500 3750 50  0001 C CNN
+F 3 "~" H 10500 3750 50  0001 C CNN
+	1    10500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 5F91B765
+P 10200 2500
+F 0 "J2" H 10227 2476 50  0000 L CNN
+F 1 "UpDownLeftRight" H 10227 2385 50  0000 L CNN
+F 2 "IO:4PAD_DIR" H 10200 2500 50  0001 C CNN
+F 3 "~" H 10200 2500 50  0001 C CNN
+	1    10200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U1
+U 7 1 5F91B943
+P 4950 1300
+F 0 "U1" V 4583 1300 50  0000 C CNN
+F 1 "74HC04" V 4674 1300 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4950 1300 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 4950 1300 50  0001 C CNN
+	7    4950 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 850  4450 1300
+Wire Wire Line
+	5950 1250 5950 900 
+Wire Wire Line
+	5950 850  4450 850 
+Connection ~ 5950 1250
+Wire Wire Line
+	5400 1300 5450 1300
+Wire Wire Line
+	5450 1300 5450 2000
+Wire Wire Line
+	5450 2000 6100 2000
+Connection ~ 5450 1300
+Connection ~ 6100 2000
+$Comp
+L power:GNDD #PWR0106
+U 1 1 5F921150
+P 7300 4250
+F 0 "#PWR0106" H 7300 4000 50  0001 C CNN
+F 1 "GNDD" H 7304 4095 50  0000 C CNN
+F 2 "" H 7300 4250 50  0001 C CNN
+F 3 "" H 7300 4250 50  0001 C CNN
+	1    7300 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7300 4250
+Wire Wire Line
+	7300 4250 7600 4250
+Wire Wire Line
+	10000 3050 10300 3050
+Wire Wire Line
+	10000 3650 9700 3650
+Wire Wire Line
+	10000 3050 10000 3650
+Wire Wire Line
+	10050 3550 9700 3550
+Wire Wire Line
+	10300 3850 10150 3850
+Wire Wire Line
+	10150 3850 10150 3450
+Wire Wire Line
+	10150 3450 9700 3450
+Wire Wire Line
+	10050 3250 10300 3250
+Wire Wire Line
+	10050 3250 10050 3550
+Wire Wire Line
+	10300 3750 10200 3750
+Wire Wire Line
+	10200 3750 10200 3350
+Wire Wire Line
+	10200 3350 9700 3350
+Wire Wire Line
+	9700 3250 9950 3250
+Wire Wire Line
+	9950 3250 9950 2400
+Wire Wire Line
+	9950 2400 10000 2400
+Wire Wire Line
+	10000 2500 9900 2500
+Wire Wire Line
+	9900 2500 9900 3150
+Wire Wire Line
+	9900 3150 9700 3150
+Wire Wire Line
+	10000 2600 9850 2600
+Wire Wire Line
+	9850 2600 9850 3050
+Wire Wire Line
+	9850 3050 9700 3050
+Wire Wire Line
+	10000 2700 9800 2700
+Wire Wire Line
+	9800 2700 9800 2950
+Wire Wire Line
+	9800 2950 9700 2950
+Wire Wire Line
+	10250 4200 10250 2950
+Wire Wire Line
+	10250 2950 10300 2950
+Wire Wire Line
+	10300 3150 10100 3150
+Wire Wire Line
+	10100 3150 10100 4250
+Wire Wire Line
+	10250 4200 8450 4200
+Wire Wire Line
+	8450 4200 8450 3650
+Wire Wire Line
+	8450 3650 8400 3650
+Wire Wire Line
+	8500 3550 8500 4250
+Wire Wire Line
+	8500 4250 10100 4250
+Wire Wire Line
+	8400 3550 8500 3550
+Wire Wire Line
+	8600 4450 8550 4450
+Wire Wire Line
+	8550 4450 8550 3450
+Wire Wire Line
+	8400 3450 8550 3450
+Wire Wire Line
+	8600 4350 8600 3350
+Wire Wire Line
+	8400 3350 8600 3350
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 5F9718F8
+P 6250 900
+F 0 "J7" H 6356 1078 50  0000 C CNN
+F 1 "Power" H 6356 987 50  0000 C CNN
+F 2 "IO:2PAD_Pwrr" H 6250 900 50  0001 C CNN
+F 3 "~" H 6250 900 50  0001 C CNN
+	1    6250 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 900  5950 900 
+Connection ~ 5950 900 
+Wire Wire Line
+	5950 900  5950 850 
+Wire Wire Line
+	6450 1000 6450 1100
+Wire Wire Line
+	6450 1100 5450 1100
+Wire Wire Line
+	5450 1100 5450 1300
+$EndSCHEMATC

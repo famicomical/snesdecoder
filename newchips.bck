@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HCT596
+D 8-bit serial in/out Shift Register Open Collector Outputs
+K HCTMOS SR OpenCollector
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
+$ENDCMP
+#
+$CMP 74LS596
+D 8-bit serial in/out Shift Register Open Collector outputs
+K HCMOS SR OpenCollector
+F http://www.ti.com/lit/gpn/sn74ls596
+$ENDCMP
+#
+$CMP TPIC6C596
+D 8-bit serial in/out Shift Register Open Drain Outputs
+K SR OpenDrain
+F https://www.ti.com/lit/gpn/TPIC6C596
+$ENDCMP
+#
+$CMP TPIC6c596
+D 8-bit serial in/out Shift Register Open Collector Outputs
+K HCMOS SR OpenCollector
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
+$ENDCMP
+#
+#End Doc Library
