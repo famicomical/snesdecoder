@@ -15,6 +15,8 @@ The SNES controller takes 4 inputs (GND, 5V, CLK, and LATCH) and sends one seria
 This board routes power to the controller and provides the clock & latch signals to drive it.
 The button data from the controller is sent back to the decoder pcb, which outputs the buttons in parallel.
 
+![SNES Timing Diagram](https://raw.githubusercontent.com/famicomical/snesdecoder/main/snes_timing.gif)
+
 The clock is generated using a ring oscillator whose period is set by an external RC time constant. See [Fairchild AN-118](https://www.onsemi.com/pub/Collateral/AN-118.pdf.pdf). 
 The ripple carry output of a 4-bit counter supplies the latch signal. This way, the SNES controller is polled every 16 clock cycles, which is enough time to transmit a full data packet. The counter also drives the register clock on the shift register(s), thereby updating the open drain outputs to reflect the button data of the preceding packet until the next packet is received.
 
