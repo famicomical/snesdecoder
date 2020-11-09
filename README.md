@@ -8,6 +8,8 @@ I use it to drive the button inputs on the IS-NITRO CAPTURE dev console.
 With some soldering skills, one could adapt it for any application where up
 to twelve switches are to be controlled from a distance.
 
+This repo hosts the KiCAD project files and some documentation
+
 ## Principle of operation ##
 The SNES controller takes 4 inputs (GND, 5V, CLK, and LATCH) and sends one output for button press data
 This board provides power to the controller, a clock signal to drive the it, and a latch to poll the buttons.
