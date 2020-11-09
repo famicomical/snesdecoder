@@ -3,6 +3,7 @@ Serial to Parallel controller decoder with open drain outputs. no CPU or FPGA.
 This board acts as a receiver for the Super Nintendo Controller.
 It was designed with open drain outputs to emulate the behavior of an OFF-ON
 switch whose two states are either OPEN or conneted to GND.
+
 I use it to drive the button inputs on the IS-NITRO CAPTURE dev console.
 With some soldering skills, one could adapt it for any application where up
 to twelve switches are to be controlled from a distance.
@@ -13,6 +14,7 @@ This board provides power to the controller, a clock signal to drive the it, and
 The Data output is then passed through the two shift registers which are activated at each polling instance.
 
 The clock is generated using a ring oscillator whose period is set by an external RC time constant. See [Fairchild AN-118](https://www.onsemi.com/pub/Collateral/AN-118.pdf.pdf). 
+
 Detailed info about the SNES contoller can be found on [GameSX](https://gamesx.com/controldata/snesdat.htm)
 
 ## Motivation ##
