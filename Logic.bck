@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74VHC9152
+D Nine inverter schmitt trigger
+K HCMOS not inverter
+$ENDCMP
+#
+#End Doc Library

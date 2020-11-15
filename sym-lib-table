@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name newchips)(type Legacy)(uri ${KIPRJMOD}/newchips.lib)(options "")(descr ""))
+  (lib (name Logic)(type Legacy)(uri ${KIPRJMOD}/Logic.lib)(options "")(descr ""))
 )
