@@ -189,7 +189,7 @@ U 1 1 5F8F0C18
 P 4700 4100
 F 0 "U2" H 4700 5100 50  0000 C CNN
 F 1 "74LS161" H 4700 4987 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4700 4100 50  0001 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4700 4100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS161" H 4700 4100 50  0001 C CNN
 	1    4700 4100
 	1    0    0    -1  
@@ -210,7 +210,7 @@ U 1 1 5FB36650
 P 7000 3350
 F 0 "U3" H 7000 4450 50  0000 C CNN
 F 1 "TLC6C5912" H 7000 4300 50  0000 C CNN
-F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 7400 2650 50  0001 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 7400 2650 50  0001 C CNN
 F 3 "" H 7400 2650 50  0001 C CNN
 	1    7000 3350
 	1    0    0    -1  
@@ -302,7 +302,7 @@ U 1 1 5FAF85BD
 P 1150 3550
 F 0 "U1" H 1150 3867 50  0000 C CNN
 F 1 "74HC04" H 1150 3776 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1150 3550 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1150 3550 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 1150 3550 50  0001 C CNN
 	1    1150 3550
 	1    0    0    -1  
@@ -313,7 +313,7 @@ U 2 1 5FAFABB6
 P 1750 3550
 F 0 "U1" H 1750 3867 50  0000 C CNN
 F 1 "74HC04" H 1750 3776 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1750 3550 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1750 3550 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 1750 3550 50  0001 C CNN
 	2    1750 3550
 	1    0    0    -1  
@@ -324,7 +324,7 @@ U 3 1 5FAFB527
 P 2450 3550
 F 0 "U1" H 2450 3867 50  0000 C CNN
 F 1 "74HC04" H 2450 3776 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2450 3550 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2450 3550 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2450 3550 50  0001 C CNN
 	3    2450 3550
 	1    0    0    -1  
@@ -383,7 +383,7 @@ U 7 1 5FB0BBB3
 P 2800 1950
 F 0 "U1" V 2433 1950 50  0000 C CNN
 F 1 "74HC04" V 2524 1950 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2800 1950 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2800 1950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2800 1950 50  0001 C CNN
 	7    2800 1950
 	0    1    1    0   
@@ -397,7 +397,7 @@ U 4 1 5FB0D1B7
 P 5400 2950
 F 0 "U1" H 5400 3267 50  0000 C CNN
 F 1 "74HC04" H 5400 3176 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5400 2950 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 5400 2950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 5400 2950 50  0001 C CNN
 	4    5400 2950
 	1    0    0    -1  
@@ -408,7 +408,7 @@ U 5 1 5FB0E3B8
 P 3100 3550
 F 0 "U1" H 3100 3867 50  0000 C CNN
 F 1 "74HC04" H 3100 3776 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3100 3550 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 3100 3550 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 3100 3550 50  0001 C CNN
 	5    3100 3550
 	1    0    0    -1  
@@ -420,7 +420,7 @@ U 6 1 5FB1384A
 P 2850 3000
 F 0 "U1" H 2850 3317 50  0000 C CNN
 F 1 "74HC04" H 2850 3226 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2850 3000 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2850 3000 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 2850 3000 50  0001 C CNN
 	6    2850 3000
 	1    0    0    -1  
