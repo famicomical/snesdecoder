@@ -1,14 +1,10 @@
 # SNES Controller Decoder #
-Serial to Parallel controller decoder with open drain outputs. no CPU or FPGA.
+Serial to Parallel controller decoder with open drain outputs.
 This board acts as a receiver for the Super Nintendo Controller.
-It was designed with open drain outputs to emulate the behavior of an OFF-ON
-switch whose two states are either OPEN or conneted to GND.
 
 I use it to drive the button inputs on the IS-NITRO CAPTURE dev console.
 With some soldering skills, one could adapt it for any application where up
-to twelve switches are to be controlled from a distance.
-
-This repo hosts the KiCAD project files and some documentation. The PCB files are set up to follow the OSHPark Design Rules.
+to twelve switches need to be controlled from a distance.
 
 ## Design Sketch ##
 The SNES controller takes 4 inputs (GND, 5V, CLK, and LATCH) and sends one serial output for button press data.
