@@ -2,9 +2,12 @@
 Serial to Parallel controller decoder with open drain outputs.
 This board acts as a receiver for the Super Nintendo Controller.
 
+![front](pcbfront.jpg)     ![back](pcbback.png)
+
 I use it to drive the button inputs on the IS-NITRO CAPTURE dev console.
 With some soldering skills, one could adapt it for any application where up
-to twelve switches need to be controlled from a distance.
+to twelve switches need to be controlled from a distance. For example, you can use the snesdecoder 
+to play your Neo Geo console or JAMMA arcade game with your SNES controller.
 
 ## Design Sketch ##
 The SNES controller takes 4 inputs (GND, 5V, CLK, and LATCH) and sends one serial output for button press data.
