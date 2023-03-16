@@ -2,7 +2,7 @@
 Serial to Parallel controller decoder with open drain outputs.
 This board acts as a receiver for the Super Nintendo Controller.
 
-![front](pcbfront.jpg)     ![back](pcbback.png)
+![front](pcbfront.png)     ![back](pcbback.png)
 
 I use it to drive the button inputs on the IS-NITRO CAPTURE dev console.
 With some soldering skills, one could adapt it for any application where up
