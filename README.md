@@ -27,7 +27,8 @@ The SNES button data is logic high when a button is NOT pressed, so the data str
 Detailed info about the SNES contoller can be found on [GameSX](https://gamesx.com/controldata/snesdat.htm)
 
 ## Motivation ##
-This project was inspired by an [old forum post](https://nfggames.com/forum2/index.php?msg=26296) on NFGgames
+This project was inspired by an [old forum post](https://nfggames.com/forum2/index.php?msg=26296) on NFGgames.
+
 I wanted to use my SNES controller on other consoles, but I felt a universal computer would be 
 overkill for accomplishing that. All of the existing solutions that I'm aware of use a computer or custom logic. 
 With discrete components that don't require programming, this design is trasparent about what it does, and is
