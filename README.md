@@ -1,6 +1,5 @@
 # SNES Controller Decoder #
-Serial to Parallel controller decoder with open drain outputs.
-This board acts as a receiver for the Super Nintendo Controller.
+It's a receiver for Super Nintendo Controllers.
 
 ![front](pcbfront.png)
 
